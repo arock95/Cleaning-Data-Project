@@ -38,7 +38,7 @@ step1_data <- rbind(test_data, train_data)
 
 # STEP 2: Extracts only the measurements on the mean and standard deviation for each measurement
 
-# Basically just grep for "mean" and "Std" in the column names of all_data
+# Basically just grep for "mean" and "Std" in the column names of step1_data
 step2_data <- step1_data[, grep("mean", colnames(step1_data))]
 step2_data <- cbind(step2_data, step1_data[, grep("std", colnames(step1_data))])
 ### END STEP 2
