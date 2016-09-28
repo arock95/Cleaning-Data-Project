@@ -1,5 +1,4 @@
-Feature Selection 
-=================
+# Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a 
@@ -47,6 +46,8 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
+
+# Tidy Data Output Variables
 
 Data include also contains information on each subject the observation relates to (subject), as well as the activity the 
 subject was performing at the time of observation (descriptiveactivity).
@@ -133,12 +134,11 @@ fbodybodyaccjerkmagstd
 fbodybodygyromagstd
 fbodybodygyrojerkmagstd
 
-Notes: 
-======
+# Notes: 
 - Features are normalized and bounded within [-1,1].
 
 
-Sources:
+# Sources:
 UCI HAR Dataset README and feature_info files
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
 Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 
