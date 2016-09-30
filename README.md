@@ -14,7 +14,7 @@ Each variable forms one (and only one) column - each column from the initial set
 Each observation forms a row - I debated making the resultant dataset narrow and long, but that would have broken up observations
 onto more than one line, as discussed below.  Since each of the many variables in the original dataset makes up one observation,
 I decided to keep with the wide dataset approach.  
-And each type of observational unit forms a table - the resultant table contains thousands of rows, but they are all of the same
+And each type of observational unit forms a table - the resultant table contains dozens of rows, but they are all of the same
 type of observation.
 
 # Assumptions
