@@ -49,11 +49,12 @@ tBodyGyroJerkMean
 
 # Tidy Data Output Variables
 
-Data include also contains information on each subject the observation relates to (subject), as well as the activity the 
+Data included also contains information on each subject the observation relates to (subject), as well as the activity the 
 subject was performing at the time of observation (descriptiveactivity).
 
 On the given data, we pulled out all columns related to mean and standard deviation.  We then calculated the mean of these data, per subject/activity pairs.  The variables
 were as follows:
+
 tbodyaccmeanx
 
 tbodyaccmeany
