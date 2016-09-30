@@ -28,8 +28,8 @@ The data we are analyzing is in two parts: training and test data.  This breaks 
 "A single observational unit is stored in multiple tables (Wickham, "Tidy Data")".  So the first step is 
 to combine the train and test data into one master table.  This can be done simply enough by reading 
 all of the relevant data into R, giving it appropriate titles, and merging it together.  The data used 
-was found in the x\_.txt files.  For column names, we used the "features.txt" file which is simply a list 
-of all of the variables measured.  We also added training labels (y\_.txt) and subject information (subject_*.txt) 
+was found in the x\_\*.txt files.  For column names, we used the "features.txt" file which is simply a list 
+of all of the variables measured.  We also added training labels (y\_\*.txt) and subject information (subject\_\*.txt) 
 to the table.  We created one table each for testing and training data, and then used rbind to merge them together.
 
 Based on the column names, the next step was to extract only the measurements on the mean and standard deviation for 
